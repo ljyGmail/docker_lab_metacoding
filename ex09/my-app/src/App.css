@@ -1,0 +1,15 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.product-card {
+  border: thick solid orange;
+  border-radius: 8px;
+  height: 100px;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 5px 0 black;
+  padding: 10px;
+  font-size: 2em;
+  font-weight: bolder;
+}

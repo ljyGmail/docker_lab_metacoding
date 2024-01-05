@@ -1,3 +1,4 @@
 data/
 mysql-volume/
 store/
+node_modules/
