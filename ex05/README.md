@@ -11,6 +11,14 @@ ENV MYSQL_DATABASE=ssardb
 CMD ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]
 ```
 
+## 이미지 만들기
+
+* Dockerfile이 있는 경로로 이동해서, 다음 명령 실행:
+
+```
+docker build -t mysql-image .
+```
+
 ## UTF-8 설정확인
 
 ```sh
